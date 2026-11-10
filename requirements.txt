@@ -1,0 +1,8 @@
+torch
+transformers
+librosa
+soundfile
+numpy
+pyarrow
+kokoro-onnx
+piper-tts

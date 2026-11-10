@@ -1,0 +1,4 @@
+data/
+clips/
+__pycache__/
+*.log

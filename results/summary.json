@@ -1,0 +1,127 @@
+{
+ "mo-thecreator/Deepfake-audio-detection": {
+  "overall": {
+   "caught": 0.6746575342465754,
+   "false_alarm": 0.0273972602739726,
+   "accuracy": 0.7342465753424657,
+   "auc": 0.807
+  },
+  "seconds": 167,
+  "kokoro-af_heart": {
+   "caught": 0.136986301369863,
+   "auc": 0.33
+  },
+  "kokoro-bm_george": {
+   "caught": 0.958904109589041,
+   "auc": 0.99
+  },
+  "piper-en_GB-alan-medium": {
+   "caught": 0.9863013698630136,
+   "auc": 0.992
+  },
+  "piper-en_US-lessac-medium": {
+   "caught": 0.6164383561643836,
+   "auc": 0.917
+  }
+ },
+ "Gustking/wav2vec2-large-xlsr-deepfake-audio-classification": {
+  "overall": {
+   "caught": 0.541095890410959,
+   "false_alarm": 0.136986301369863,
+   "accuracy": 0.6054794520547945,
+   "auc": 0.816
+  },
+  "seconds": 390,
+  "kokoro-af_heart": {
+   "caught": 0.3013698630136986,
+   "auc": 0.643
+  },
+  "kokoro-bm_george": {
+   "caught": 0.7534246575342466,
+   "auc": 0.929
+  },
+  "piper-en_GB-alan-medium": {
+   "caught": 0.7671232876712328,
+   "auc": 0.91
+  },
+  "piper-en_US-lessac-medium": {
+   "caught": 0.3424657534246575,
+   "auc": 0.783
+  }
+ },
+ "garystafford/wav2vec2-deepfake-voice-detector": {
+  "overall": {
+   "caught": 0.9726027397260274,
+   "false_alarm": 0.6712328767123288,
+   "accuracy": 0.8438356164383561,
+   "auc": 0.921
+  },
+  "seconds": 396,
+  "kokoro-af_heart": {
+   "caught": 0.9041095890410958,
+   "auc": 0.782
+  },
+  "kokoro-bm_george": {
+   "caught": 1.0,
+   "auc": 0.989
+  },
+  "piper-en_GB-alan-medium": {
+   "caught": 1.0,
+   "auc": 0.986
+  },
+  "piper-en_US-lessac-medium": {
+   "caught": 0.9863013698630136,
+   "auc": 0.925
+  }
+ },
+ "MelodyMachine/Deepfake-audio-detection-V2": {
+  "overall": {
+   "caught": 0.0,
+   "false_alarm": 0.0273972602739726,
+   "accuracy": 0.19452054794520549,
+   "auc": 0.049
+  },
+  "seconds": 159,
+  "kokoro-af_heart": {
+   "caught": 0.0,
+   "auc": 0.025
+  },
+  "kokoro-bm_george": {
+   "caught": 0.0,
+   "auc": 0.092
+  },
+  "piper-en_GB-alan-medium": {
+   "caught": 0.0,
+   "auc": 0.059
+  },
+  "piper-en_US-lessac-medium": {
+   "caught": 0.0,
+   "auc": 0.019
+  }
+ },
+ "Vansh180/deepfake-audio-wav2vec2": {
+  "overall": {
+   "caught": 0.0,
+   "false_alarm": 0.0,
+   "accuracy": 0.2,
+   "auc": 0.413
+  },
+  "seconds": 149,
+  "kokoro-af_heart": {
+   "caught": 0.0,
+   "auc": 0.246
+  },
+  "kokoro-bm_george": {
+   "caught": 0.0,
+   "auc": 0.789
+  },
+  "piper-en_GB-alan-medium": {
+   "caught": 0.0,
+   "auc": 0.358
+  },
+  "piper-en_US-lessac-medium": {
+   "caught": 0.0,
+   "auc": 0.259
+  }
+ }
+}
